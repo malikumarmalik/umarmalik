@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mnav .mar{
+    margin-left: 17%;
+}
+
+.ulh li a:hover{
+    color: red !important;
+}
+#backimg{
+    background-image: url("./img/hero-bg.jpg");
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -200px;
+    background-position: center;
+    padding-top: 1%;
+    text-align: center;
+    /* filter:opacity(20%) */
+    }
+    #backimg .hov:hover{
+        color: gold; 
+        cursor: pointer;
+    }
+    .bg44{
+        background-color: gray
+    }
+    #fong{
+        font-size: 12px;
+        font-weight: bolder;
+    }
+    #bht{
+        background-color: #f42f2c;
+        text-decoration: none;
+    }
+    #bht:hover{
+        background-color: black;
+    }
+
+nav > .nav.nav-tabs{
+
+    border: none;
+      color:#000;
+     
+      border-radius:0;
+  
+  }
+  nav > div a.nav-item.nav-link,
+  nav > div a.nav-item.nav-link.active
+  {
+    border: none;
+      padding: 30px 55px;
+      color:#000;
+      border-radius:0;
+  }
+  
+  nav > div a.nav-item.nav-link.active:after
+   {
+    content: "";
+    position: relative;
+    bottom: -60px;
+    left: -10%;
+    border: 15px solid transparent;
+    /* border-top-color: #e74c3c ; */
+  }
+  .tab-content{
+    background: #fdfdfd;
+      line-height: 25px;
+      padding:30px 25px;
+  }
+  
+  nav > div a.nav-item.nav-link:hover,
+  nav > div a.nav-item.nav-link:focus
+  {
+    border: none;
+      background: #e74c3c;
+      color:#fff;
+      border-radius:0;
+      transition:background 0.20s linear;
+  }
+  #bgsimg{
+    background-image: url("./img/reservation-bg.jpg");
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -200px;
+    background-position: center;
+    padding-top: 1%;
+    text-align: center;
+  }
+  #slimg{
+    background-image: url("./img/review-bg.jpg");
+    background-attachment: fixed;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -200px;
+    background-position: center;
+    padding-top: 1%;
+    text-align: center;
+  }
+  #vvcolo{
+      background-color: #e74c3c;
+  }
+  #foog{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 100px;
+    border: #e6e6e6;
+}
